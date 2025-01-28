@@ -9,3 +9,4 @@ To run this application, please follow the instructions:
 ## Improvements
 
 - Use `new Date(Date.UTC(...))` to create the dates, and read them also as UTC so the days don't change if you travel.
+- Add tests to for /api/items.tsx

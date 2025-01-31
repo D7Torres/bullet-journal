@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Journals } from './pages/Journals/Journals'
+import { Journals } from '@pages/Journals/Journals'
 
 function App() {
   return (

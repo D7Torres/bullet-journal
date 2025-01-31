@@ -20,7 +20,14 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Support aliases */
+    "baseUrl": ".", // Base directory for resolving non-relative paths
+    "paths": {
+      "@/*": ["./src/*"],
+      "@pages/*": ["./src/pages/*"]
+    }
   },
   "include": ["src"]
 }

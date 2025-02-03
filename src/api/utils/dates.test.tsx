@@ -1,4 +1,3 @@
-import { expect, test } from 'vitest'
 import { getDatesOfWeek } from './dates'
 
 const datesToDaysOfTheWeek = (date: Date) => ({

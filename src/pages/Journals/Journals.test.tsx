@@ -1,21 +1,23 @@
-import { expect, test } from 'vitest'
 import { render } from '@testing-library/react'
 import { createMemoryRouter, RouterProvider } from 'react-router-dom'
 import { Journals } from './Journals'
+import { describe } from 'node:test'
 
-test('Journals page renders', () => {
-  const memoryRouter = createMemoryRouter(
-    [
-      {
-        path: '/',
-        element: <Journals />,
-      },
-    ],
+const memoryRouter = createMemoryRouter(
+  [
     {
-      initialEntries: ['/'],
+      path: '/',
+      element: <Journals />,
     },
-  )
+  ],
+  {
+    initialEntries: ['/'],
+  },
+)
 
-  const { asFragment } = render(<RouterProvider router={memoryRouter} />)
-  expect(asFragment()).toMatchSnapshot()
+describe('Journals page', () => {
+  test('Journals page renders', () => {
+    const { asFragment } = render(<RouterProvider router={memoryRouter} />)
+    expect(asFragment()).toMatchSnapshot()
+  })
 })

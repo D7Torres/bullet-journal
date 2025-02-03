@@ -8,6 +8,8 @@ export default defineConfig({
   plugins: [react()],
   test: {
     environment: 'jsdom',
+    setupFiles: ['./testSetup.ts'],
+    globals: true, // Enable global availability of `test`, `expect`, etc.
   },
   resolve: {
     alias: {

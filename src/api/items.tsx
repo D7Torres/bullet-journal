@@ -1,4 +1,4 @@
-import { getDatesOfWeek, dayOfTheWeekStartingInMonday } from './utils/dates'
+import { getDatesOfWeek, dayOfTheWeekStartingInMonday } from '@utils/dates'
 
 type Item = {
   date: Date

@@ -27,6 +27,7 @@
     "baseUrl": ".", // Base directory for resolving non-relative paths
     "paths": {
       "@pages/*": ["./src/pages/*"],
+      "@utils/*": ["./src/utils/*"],
       "@/*": ["./src/*"]
     }
   },

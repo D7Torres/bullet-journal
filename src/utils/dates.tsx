@@ -26,3 +26,13 @@ export const getDatesOfWeek = (year: number, weekNumber: number) => {
 
   return dates
 }
+
+export const firstDayOfWeek = (year: number, weekNumber: number) => {
+  const date = getDatesOfWeek(year, weekNumber)[0]
+  return `${date.getDate()} ${date.toLocaleString('default', { month: 'short' })}`
+}
+
+export const lastDayOfWeek = (year: number, weekNumber: number) => {
+  const date = getDatesOfWeek(year, weekNumber)[6]
+  return `${date.getDate()} ${date.toLocaleString('default', { month: 'short' })}`
+}

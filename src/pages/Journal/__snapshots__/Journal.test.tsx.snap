@@ -5,5 +5,431 @@ exports[`Journal page renders 1`] = `
   <h1>
     Journal 2025
   </h1>
+  <ul>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/1"
+      >
+        30 Dec - 5 Jan
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/2"
+      >
+        6 Jan - 12 Jan
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/3"
+      >
+        13 Jan - 19 Jan
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/4"
+      >
+        20 Jan - 26 Jan
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/5"
+      >
+        27 Jan - 2 Feb
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/6"
+      >
+        3 Feb - 9 Feb
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/7"
+      >
+        10 Feb - 16 Feb
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/8"
+      >
+        17 Feb - 23 Feb
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/9"
+      >
+        24 Feb - 2 Mar
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/10"
+      >
+        3 Mar - 9 Mar
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/11"
+      >
+        10 Mar - 16 Mar
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/12"
+      >
+        17 Mar - 23 Mar
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/13"
+      >
+        24 Mar - 30 Mar
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/14"
+      >
+        31 Mar - 6 Apr
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/15"
+      >
+        7 Apr - 13 Apr
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/16"
+      >
+        14 Apr - 20 Apr
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/17"
+      >
+        21 Apr - 27 Apr
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/18"
+      >
+        28 Apr - 4 May
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/19"
+      >
+        5 May - 11 May
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/20"
+      >
+        12 May - 18 May
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/21"
+      >
+        19 May - 25 May
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/22"
+      >
+        26 May - 1 Jun
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/23"
+      >
+        2 Jun - 8 Jun
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/24"
+      >
+        9 Jun - 15 Jun
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/25"
+      >
+        16 Jun - 22 Jun
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/26"
+      >
+        23 Jun - 29 Jun
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/27"
+      >
+        30 Jun - 6 Jul
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/28"
+      >
+        7 Jul - 13 Jul
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/29"
+      >
+        14 Jul - 20 Jul
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/30"
+      >
+        21 Jul - 27 Jul
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/31"
+      >
+        28 Jul - 3 Aug
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/32"
+      >
+        4 Aug - 10 Aug
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/33"
+      >
+        11 Aug - 17 Aug
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/34"
+      >
+        18 Aug - 24 Aug
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/35"
+      >
+        25 Aug - 31 Aug
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/36"
+      >
+        1 Sep - 7 Sep
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/37"
+      >
+        8 Sep - 14 Sep
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/38"
+      >
+        15 Sep - 21 Sep
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/39"
+      >
+        22 Sep - 28 Sep
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/40"
+      >
+        29 Sep - 5 Oct
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/41"
+      >
+        6 Oct - 12 Oct
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/42"
+      >
+        13 Oct - 19 Oct
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/43"
+      >
+        20 Oct - 26 Oct
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/44"
+      >
+        27 Oct - 2 Nov
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/45"
+      >
+        3 Nov - 9 Nov
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/46"
+      >
+        10 Nov - 16 Nov
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/47"
+      >
+        17 Nov - 23 Nov
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/48"
+      >
+        24 Nov - 30 Nov
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/49"
+      >
+        1 Dec - 7 Dec
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/50"
+      >
+        8 Dec - 14 Dec
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/51"
+      >
+        15 Dec - 21 Dec
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/52"
+      >
+        22 Dec - 28 Dec
+      </a>
+    </li>
+    <li>
+      <a
+        data-discover="true"
+        href="/journal/2025/week/53"
+      >
+        29 Dec - 4 Jan
+      </a>
+    </li>
+  </ul>
 </DocumentFragment>
 `;

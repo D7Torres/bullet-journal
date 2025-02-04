@@ -26,8 +26,8 @@
     /* Support aliases */
     "baseUrl": ".", // Base directory for resolving non-relative paths
     "paths": {
-      "@/*": ["./src/*"],
-      "@pages/*": ["./src/pages/*"]
+      "@pages/*": ["./src/pages/*"],
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src"]

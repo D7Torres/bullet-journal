@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { firstDayOfWeek, lastDayOfWeek } from '@utils/dates'
+import { getDatesOfWeek, toFriendlyShortWeekDate } from '@utils/dates'
 
 const weekNumbers = Array.from({ length: 53 }, (_, i) => i + 1)
 
@@ -17,8 +17,8 @@ export const Journal = () => {
         {weekNumbers.map((weekNumber) => (
           <li key={weekNumber}>
             <Link to={`/journal/${year}/week/${weekNumber}`}>
-              {firstDayOfWeek(+year, weekNumber)} -{' '}
-              {lastDayOfWeek(+year, weekNumber)}
+              {toFriendlyShortWeekDate(getDatesOfWeek(+year, weekNumber)[0])} -{' '}
+              {toFriendlyShortWeekDate(getDatesOfWeek(+year, weekNumber)[6])}
             </Link>
           </li>
         ))}

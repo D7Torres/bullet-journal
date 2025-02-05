@@ -27,12 +27,12 @@ export const getDatesOfWeek = (year: number, weekNumber: number) => {
   return dates
 }
 
-export const firstDayOfWeek = (year: number, weekNumber: number) => {
-  const date = getDatesOfWeek(year, weekNumber)[0]
-  return `${date.getDate()} ${date.toLocaleString('default', { month: 'short' })}`
+// Given a date, it returns something like: "Monday, 1 Jan"
+export const toFriendlyWeekDate = (date: Date) => {
+  return `${date.toLocaleDateString('default', { weekday: 'long' })}, ${date.getDate()} ${date.toLocaleString('default', { month: 'short' })}`
 }
 
-export const lastDayOfWeek = (year: number, weekNumber: number) => {
-  const date = getDatesOfWeek(year, weekNumber)[6]
+// Given a date, it returns something like: "1 Jan"
+export const toFriendlyShortWeekDate = (date: Date) => {
   return `${date.getDate()} ${date.toLocaleString('default', { month: 'short' })}`
 }

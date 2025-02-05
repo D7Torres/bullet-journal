@@ -1,9 +1,21 @@
 import { getDatesOfWeek, dayOfTheWeekStartingInMonday } from '@utils/dates'
 
-type Item = {
+interface SimpleItem {
+  id: number
   date: Date
   text: string
+  isSoftDeleted: boolean
 }
+
+interface CompletableItem extends SimpleItem {
+  isDone: boolean
+}
+
+interface TimedItem extends SimpleItem {
+  time: Date
+}
+
+type Item = SimpleItem | CompletableItem | TimedItem
 
 export const getItems = () => {
   const items = JSON.parse(localStorage.getItem('items') || '[]') as Item[]

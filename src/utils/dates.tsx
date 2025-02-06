@@ -29,7 +29,7 @@ export const getDatesOfWeek = (year: number, weekNumber: number) => {
 
 // Given a date, it returns something like: "Monday, 1 Jan"
 export const toFriendlyWeekDate = (date: Date) => {
-  return `${date.toLocaleDateString('default', { weekday: 'long' })}, ${date.getDate()} ${date.toLocaleString('default', { month: 'short' })}`
+  return `${date.toLocaleDateString('default', { weekday: 'long' })}, ${date.getDate()}`
 }
 
 // Given a date, it returns something like: "1 Jan"

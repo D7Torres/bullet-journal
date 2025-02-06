@@ -1,4 +1,4 @@
-export const dayOfTheWeekStartingInMonday = (date: Date) => {
+const dayOfTheWeekStartingInMonday = (date: Date) => {
   // date.getDay() returns 0 for Sunday, 1 for Monday, etc.
   // We want to have Monday as 0, Tuesday as 1, etc.
   return (date.getDay() + 6) % 7

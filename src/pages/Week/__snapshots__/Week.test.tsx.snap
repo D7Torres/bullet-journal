@@ -8,37 +8,37 @@ exports[`Journal page renders 1`] = `
   <ul>
     <li>
       <h2>
-        Monday, 10 Feb
+        Monday, 10
       </h2>
     </li>
     <li>
       <h2>
-        Tuesday, 11 Feb
+        Tuesday, 11
       </h2>
     </li>
     <li>
       <h2>
-        Wednesday, 12 Feb
+        Wednesday, 12
       </h2>
     </li>
     <li>
       <h2>
-        Thursday, 13 Feb
+        Thursday, 13
       </h2>
     </li>
     <li>
       <h2>
-        Friday, 14 Feb
+        Friday, 14
       </h2>
     </li>
     <li>
       <h2>
-        Saturday, 15 Feb
+        Saturday, 15
       </h2>
     </li>
     <li>
       <h2>
-        Sunday, 16 Feb
+        Sunday, 16
       </h2>
     </li>
   </ul>

@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Journal page renders 1`] = `
+<DocumentFragment>
+  <h1>
+    10 Feb - 16 Feb
+  </h1>
+  <ul>
+    <li>
+      <h2>
+        Monday, 10 Feb
+      </h2>
+    </li>
+    <li>
+      <h2>
+        Tuesday, 11 Feb
+      </h2>
+    </li>
+    <li>
+      <h2>
+        Wednesday, 12 Feb
+      </h2>
+    </li>
+    <li>
+      <h2>
+        Thursday, 13 Feb
+      </h2>
+    </li>
+    <li>
+      <h2>
+        Friday, 14 Feb
+      </h2>
+    </li>
+    <li>
+      <h2>
+        Saturday, 15 Feb
+      </h2>
+    </li>
+    <li>
+      <h2>
+        Sunday, 16 Feb
+      </h2>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

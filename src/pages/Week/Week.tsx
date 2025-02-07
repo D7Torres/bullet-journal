@@ -5,6 +5,7 @@ import {
   toFriendlyWeekDate,
 } from '@utils/dates'
 import { useMemo } from 'react'
+import { Day } from '@components/Day/Day'
 
 export const Week = () => {
   const { year = new Date().getFullYear(), weekNumber = '1' } = useParams()
@@ -26,8 +27,8 @@ export const Week = () => {
       </h1>
       <ul>
         {datesOfWeek.map((date) => (
-          <li>
-            <h2>{toFriendlyWeekDate(date)}</h2>
+          <li key={date.getDay()}>
+            <Day date={date} />
           </li>
         ))}
       </ul>

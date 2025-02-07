@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Journal page renders 1`] = `
+<DocumentFragment>
+  <h2>
+    Friday, 1
+  </h2>
+</DocumentFragment>
+`;

@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Journal page renders 1`] = `
+exports[`renders 1`] = `
 <DocumentFragment>
   <h1>
     10 Feb - 16 Feb
@@ -10,36 +10,43 @@ exports[`Journal page renders 1`] = `
       <h2>
         Monday, 10
       </h2>
+      <ul />
     </li>
     <li>
       <h2>
         Tuesday, 11
       </h2>
+      <ul />
     </li>
     <li>
       <h2>
         Wednesday, 12
       </h2>
+      <ul />
     </li>
     <li>
       <h2>
         Thursday, 13
       </h2>
+      <ul />
     </li>
     <li>
       <h2>
         Friday, 14
       </h2>
+      <ul />
     </li>
     <li>
       <h2>
         Saturday, 15
       </h2>
+      <ul />
     </li>
     <li>
       <h2>
         Sunday, 16
       </h2>
+      <ul />
     </li>
   </ul>
 </DocumentFragment>

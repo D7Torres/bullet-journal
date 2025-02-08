@@ -1,9 +1,17 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Journal page renders 1`] = `
+exports[`renders 1`] = `
 <DocumentFragment>
   <h2>
     Friday, 1
   </h2>
+  <ul>
+    <li>
+      Item 1
+    </li>
+    <li>
+      Item 2
+    </li>
+  </ul>
 </DocumentFragment>
 `;

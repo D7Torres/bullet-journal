@@ -1,19 +1,19 @@
-interface SimpleItem {
+export interface SimpleItem {
   id: number
   date: Date
   text: string
   isSoftDeleted: boolean
 }
 
-interface CompletableItem extends SimpleItem {
+export interface CompletableItem extends SimpleItem {
   isDone: boolean
 }
 
-interface TimedItem extends SimpleItem {
+export interface TimedItem extends SimpleItem {
   time: Date
 }
 
-type Item = SimpleItem | CompletableItem | TimedItem
+export type Item = SimpleItem | CompletableItem | TimedItem
 
 // Returns a string like "2021-12-31"
 const dateToString = (date: Date) => {
@@ -28,7 +28,8 @@ export const getItemsByDate = (date: Date) => {
   return items
 }
 
-export const addItemToDate = (item: Item, date: Date) => {
+export const addItem = (item: Item) => {
+  const { date } = item
   const items = getItemsByDate(date)
   localStorage.setItem(
     `items-${dateToString(date)}`,

@@ -1,9 +1,5 @@
 import { useParams } from 'react-router-dom'
-import {
-  getDatesOfWeek,
-  toFriendlyShortWeekDate,
-  toFriendlyWeekDate,
-} from '@utils/dates'
+import { getDatesOfWeek, toFriendlyShortWeekDate } from '@utils/dates'
 import { useMemo } from 'react'
 import { Day } from '@components/Day/Day'
 

@@ -17,8 +17,8 @@ const memoryRouter = createMemoryRouter(
   },
 )
 
-describe('Journal page', () => {
-  test('Journal page renders', () => {
+describe('Week page', () => {
+  test('renders', () => {
     const { asFragment } = render(<RouterProvider router={memoryRouter} />)
     expect(asFragment()).toMatchSnapshot()
   })

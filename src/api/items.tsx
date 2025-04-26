@@ -16,8 +16,10 @@ export interface TimedItem extends SimpleItem {
 export type Item = SimpleItem | CompletableItem | TimedItem
 
 // Returns a string like "2021-12-31"
-const dateToString = (date: Date) => {
-  return date.toISOString().split('T')[0]
+const dateToString = (date: Date | string) => {
+  const fullDateString = typeof date === 'string' ? date : date.toISOString()
+
+  return fullDateString.split('T')[0]
 }
 
 export const getItemsByDate = (date: Date) => {

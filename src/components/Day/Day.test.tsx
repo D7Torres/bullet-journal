@@ -1,9 +1,7 @@
 import { render } from '@testing-library/react'
 import { vi } from 'vitest'
 import { Day } from './Day'
-import { describe } from 'node:test'
 import type { Item } from '@api/items'
-import '@testing-library/jest-dom'
 
 const date = new Date('2021-01-01')
 const otherDate = new Date('2021-01-02')

@@ -1,7 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import { createMemoryRouter, RouterProvider } from 'react-router-dom'
 import { Week } from './Week'
-import { describe } from 'node:test'
 
 const year = 2025
 const weekNumber = 7

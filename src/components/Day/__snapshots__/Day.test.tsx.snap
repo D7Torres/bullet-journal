@@ -1,10 +1,13 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`renders 1`] = `
+exports[`Day component > renders 1`] = `
 <DocumentFragment>
   <h2>
     Friday, 1
   </h2>
+  <button>
+    Write
+  </button>
   <ul>
     <li>
       Item 1
